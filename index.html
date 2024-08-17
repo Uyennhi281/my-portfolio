@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Cao Uyên Nhi/2200008906</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('D:/Portfolio/stuff/img/body-image.JPG'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+.header {
+    position: relative; 
+    height: 60vh; 
+    overflow: hidden; 
+}
+
+
+.header-image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    filter: blur(2px); 
+    opacity: 0.7; 
+}
+
+
+.header-content {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    color: #fff5f5;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+h3 {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    margin: 10px; 
+    font-size: 20; 
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+nav {
+    display: grid;
+    justify-content: end; 
+    background-color: #0f0549;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column; 
+    gap: 20px;
+}
+
+.nav-links li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #db5783;
+}
+section {
+    padding: 60px 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #080833;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 248, 248, 0.1);
+    opacity: 0.9; 
+}
+section.content {
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.5s ease;
+    filter: blur(0)
+}
+
+
+.wrapped-image {
+    float: right; /* Đặt ảnh sang bên phải và cho phép văn bản bọc xung quanh */
+    margin: 0 0 10px 15px; /* Khoảng cách chỉ ở phía trái và phía dưới của ảnh */
+    width: 200px; /* Đặt chiều rộng ảnh */
+    height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ */
+}
+
+/* Định dạng văn bản */
+.content p {
+    font-size: 16px; /* Kích thước chữ */
+    line-height: 1.6; /* Khoảng cách giữa các dòng */
+    color: #fdfdfd; /* Màu chữ */
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background-color: #a94dff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #7487f0;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a {
+    color: #f7f19d;
+}
+
+a:hover {
+    color: red; /* Màu đỏ khi di chuột qua */
+}
+
+       
+a:visited {
+    color: #b6bbff; /* Màu tím khi liên kết đã được nhấp */
+}
+
+a:active {
+    color: green; /* Màu xanh lá khi liên kết đang được nhấn */
+}
+
+
+footer {
+    background-color: #080833;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+</style>
+<body>
+    <h3 id="pageTitle">Nguyễn Cao Uyên Nhi</h3>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">Giới Thiệu</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    <header class="header">
+        <img src="D:/Portfolio/stuff/img/BG.PNG" alt="Header Background" class="header-image">
+        <div class="header-content">
+            <h1>Chào, tớ là Nhi</h1>
+            <p>Tớ hiện tại là sinh viên năm hai, chuyên ngành công nghệ thông tin - Kỹ sư phần mềm</p>
+        </div>
+    </header>
+    <section id="about">
+        <div class="content">
+            <img id="myImage" src="D:/Portfolio/stuff/img/myself.JPG" alt="ảnh về tôi" class="wrapped-image">
+        <h2>Một chút giới thiệu về bản thân</h2>
+        <p>Xin chào, đây là nơi tớ sẽ nói về chính mình. Tớ là Nguyễn Cao Uyên Nhi, một lập trình viên cũng như sinh viên năm hai của trường đại học Nguyễn Tất Thành. Với chuyên ngành kỹ sư phần mềm, sự am hiểu về lĩnh vực này có thể nói là khá tương đối. Ngoài ra, ngoài lĩnh vưc Coder ra, tớ còn là một Writer hiện đang có một dự án được đăng tải trên trang web Hako.ln, và là một Digital Artist nghiệp dư.</p>
+        <p>Hiện tại, tớ có tham gia một project visual novel game trong một nhóm nhỏ, đảm nhiệm phần coder chính trong nhóm và phần minh hoạ các thiết kế nhân vật cho tựa game.</p>
+        <p>Nói một chút về hai năm viết văn trên các nền tảng, dù có nhiều trắc trở lúc đầu nhưng càng về sau, nhờ có sự giúp đỡ từ các phía như bạn bè và người quen trên mạng cũng như độc giả của mình. Dần tác phẩm cũng được một số người ủng hộ và mong ngóng hàng ngày. Còn vè những bức tranh, cho dù là luyện tập tại nhà và thông qua các trang mạnh như YouTube, Pinterest hay Twitter, thì mọi thứ vẫn cần phải có sự tập trung và kiên nhẫn. Vì vậy trong suốt tám năm ròng, các tác phẩm hay dự án đều ngày một hoàn thiện hơn trước.</p>
+        </div>
+
+    <script src="image-ani.js"></script>
+    </section>
+
+    <section id="projects">
+        <h2>Các dự án</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <img src="D:/Portfolio/stuff/img/pj1.png" alt="Project 1">
+                <h2>Dự án 1 - Đang trong quá trình thực hiện</2>
+                <p>Dự án là một tựa game visual novel kinh dị với lối chơi tương tác đồ vật và khám phá, ngoài ra còn có các tính năng hấp dẫn mà ít tựa game tương tự sở hữu được.</p>
+                <p>Với mục tiêu là hoàn thành trong một năm, sau đó đăng lên các trang web nhỏ để quảng bá tựa game trước. Dần, khi đã có đủ lượng độc giả cũng như người chơi từ các trang web nhỏ, nhóm chúng tớ sẽ vươn lên một bậc tiến đó là đăng ký bản quyền trên Steam để tiếp tục quảng bá thương hiệu của nhóm.</p>
+            </div>
+            <div class="project">
+                <img src="D:/Portfolio/stuff/img/pj2.png" alt="Project 2" width="700" height="800">
+                <h2>Dự án 2</h2>
+                <p>Chuyển tác phẩm hiện tại của bản thân thành một game visual novel phi lợi nhuận, khác với dự án 2.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Kỹ năng</h2>
+        <ul class="skills-list">
+            <li>Sử dụng các ngôn ngữ như C++, Python, HTML</li>
+            <li>Vẽ minh hoạ</li>
+            <li>Lập một planner và outline cho game, tác phẩm</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Liên hệ</h2>
+        <p>Dưới đây là email để liên lạc với tớ <a href="mailto:your.email@example.com">nhituna2810@gmail.com</a> </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Tunacchi A.K.A Uyên Nhi]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
