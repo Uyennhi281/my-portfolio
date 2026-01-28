@@ -3,232 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nguyễn Cao Uyên Nhi/2200008906</title>
+    <title>Portfolio | Nguyễn Cao Uyên Nhi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
 </head>
-<style>
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url('./stuff/img/body-image.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    font-family: Arial, sans-serif;
-    color: rgb(255, 255, 255);
-}
-
-
-.header {
-    position: relative; 
-    height: 60vh; 
-    overflow: hidden; 
-}
-
-
-.header-image {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
-    filter: blur(2px); 
-    opacity: 0.7; 
-}
-
-
-.header-content {
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    text-align: center;
-    color: #fff5f5;
-}
-
-.header-content h1 {
-    font-size: 3em;
-    margin: 0;
-}
-
-.header-content p {
-    font-size: 1.2em;
-    margin-top: 10px;
-}
-
-h3 {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    margin: 10px; 
-    font-size: 20; 
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-
-.btn-primary {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: #0056b3;
-}
-
-nav {
-    display: grid;
-    justify-content: end; 
-    background-color: #0f0549;
-    padding: 10px 20px;
-}
-
-.nav-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-auto-flow: column; 
-    gap: 20px;
-}
-
-.nav-links li {
-    display: flex;
-    align-items: center;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.nav-links a:hover {
-    color: #db5783;
-}
-section {
-    padding: 60px 20px;
-    margin: 20px auto;
-    max-width: 1200px;
-    background-color: #080833;
-    border-radius: 8px;
-    box-shadow: 0 0 20px rgba(255, 248, 248, 0.1);
-    opacity: 0.9; 
-}
-section.content {
-    padding: 20px; 
-    background-color: #f9f9f9; 
-    border: 1px solid #ddd; 
-    border-radius: 5px;
-}
-
-img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    transition: transform 0.5s ease;
-    filter: blur(0)
-}
-
-
-.wrapped-image {
-    float: right; 
-    margin: 0 0 10px 15px; 
-    width: 200px;
-    height: auto;
-}
-
-.content p {
-    font-size: 16px;
-    line-height: 1.6; 
-    color: #fdfdfd;
-}
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.project {
-    background-color: #a94dff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
-
-.project img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
-.skills-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-}
-
-.skills-list li {
-    background-color: #7487f0;
-    color: #fff;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-a {
-    color: #f7f19d;
-}
-
-a:hover {
-    color: red; 
-}
-
-       
-a:visited {
-    color: #b6bbff; 
-}
-
-a:active {
-    color: green; 
-}
-
-
-footer {
-    background-color: #080833;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-}
-
-</style>
 <body>
-    <h3 id="pageTitle">Nguyễn Cao Uyên Nhi</h3>
+    <h3 id="pageTitle">NGUYEN CAO UYEN NHI</h3>
     <header>
         <nav>
             <ul class="nav-links">
-                <li><a href="#about">Giới Thiệu</a></li>
-                <li><a href="#projects">Dự án</a></li>
-                <li><a href="#skills">Kỹ năng</a></li>
-                <li><a href="#contact">Liên hệ</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     
@@ -236,55 +23,198 @@ footer {
     <header class="header">
         <img src="./stuff/img/BG.png" alt="Header Background" class="header-image">
         <div class="header-content">
-            <h1>Chào, tớ là Nhi</h1>
-            <p>Tớ hiện tại là sinh viên năm hai, chuyên ngành công nghệ thông tin - Kỹ sư phần mềm</p>
+            <h1>WELCOME!</h1>
+            <h2>I am Nhi, also know as Tunacchi</h2>
+            <p>I am currently a fourth-year student majoring in Information Technology - Software Engineering.</p>
         </div>
     </header>
-    <section id="about">
-        <div class="content">
-            <img id="myImage" src="./stuff/img/myself.jpg" alt="ảnh về tôi" class="wrapped-image">
-        <h2>Một chút giới thiệu về bản thân</h2>
-        <p>Xin chào, đây là nơi tớ sẽ nói về chính mình. Tớ là Nguyễn Cao Uyên Nhi, một lập trình viên cũng như sinh viên năm hai của trường đại học Nguyễn Tất Thành. Với chuyên ngành kỹ sư phần mềm, sự am hiểu về lĩnh vực này có thể nói là khá tương đối. Ngoài ra, ngoài lĩnh vưc Coder ra, tớ còn là một Writer hiện đang có một dự án được đăng tải trên trang web Hako.ln, và là một Digital Artist nghiệp dư.</p>
-        <p>Hiện tại, tớ có tham gia một project visual novel game trong một nhóm nhỏ, đảm nhiệm phần coder chính trong nhóm và phần minh hoạ các thiết kế nhân vật cho tựa game.</p>
-        <p>Nói một chút về hai năm viết văn trên các nền tảng, dù có nhiều trắc trở lúc đầu nhưng càng về sau, nhờ có sự giúp đỡ từ các phía như bạn bè và người quen trên mạng cũng như độc giả của mình. Dần tác phẩm cũng được một số người ủng hộ và mong ngóng hàng ngày. Còn vè những bức tranh, cho dù là luyện tập tại nhà và thông qua các trang mạnh như YouTube, Pinterest hay Twitter, thì mọi thứ vẫn cần phải có sự tập trung và kiên nhẫn. Vì vậy trong suốt tám năm ròng, các tác phẩm hay dự án đều ngày một hoàn thiện hơn trước.</p>
-        </div>
-
+    <div class="profile-container">
+    
+        <section id="about" class="split-section">
+            <div class="about-content">
+                <img src="./stuff/img/myself.jpg" alt="Avatar" class="avatar-img">
+                <h2>INTRODUCTION</h2>
+                <p>
+                    I am a Front-end Engineer with strong aptitude for research, creative interface design, and effective information gathering. 
+                    I am a fast learner who adapts easily to new environments. 
+                    Currently, I am seeking a position that allows me to expand my knowledge and vision in Front-end development.
+                </p>
+            </div>
+        </section>
+    <!--Phần Skill-->
+        <section id="skills" class="split-section">
+        
+            <div class="skill-block">
+                <h3>SOFTWARE SKILL</h3> <ul>
+                    <li>C++, Python, HTML/CSS</li>
+                    <li>Microsoft Office, Google Sheets</li>
+                    <li>Basic Image & Video Editing</li>
+                    <li>Website Design (Figma, Framer)</li>
+                </ul>
+            </div>
+    
+            <div class="skill-block">
+                <h3>SOFTSKILL</h3>
+                <ul>
+                    <li>Storytelling & Visual Thinking</li>
+                    <li>Teamwork</li>
+                    <li>Research & Analysis</li>
+                    <li>Adaptability & Fast Learning</li>
+                </ul>
+            </div>
+    
+            <div class="skill-block">
+                <h3>LANGUAGE</h3>
+                <ul>
+                    <li>English (Level 4/6)</li>
+                    <li>Vietnamese (Native)</li>
+                </ul>
+            </div>
+        </section>
+    
+    </div>
+        <!--Project-->
     <script src="image-ani.js"></script>
     </section>
 
-    <section id="projects">
-        <h2>Các dự án</h2>
-        <div class="projects-grid">
-            <div class="project">
-                <img src="./stuff/img/pj1.png" alt="Project 1">
-                <h2>Dự án 1 - Đang trong quá trình thực hiện</2>
-                <p>Dự án là một tựa game visual novel kinh dị với lối chơi tương tác đồ vật và khám phá, ngoài ra còn có các tính năng hấp dẫn mà ít tựa game tương tự sở hữu được.</p>
-                <p>Với mục tiêu là hoàn thành trong một năm, sau đó đăng lên các trang web nhỏ để quảng bá tựa game trước. Dần, khi đã có đủ lượng độc giả cũng như người chơi từ các trang web nhỏ, nhóm chúng tớ sẽ vươn lên một bậc tiến đó là đăng ký bản quyền trên Steam để tiếp tục quảng bá thương hiệu của nhóm.</p>
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">ONGOING PROJECTS & ACTIVITIES</h2>
+        
+        <div class="carousel-wrapper">
+            
+            <div class="carousel-view-port">
+                <div class="carousel-track">
+                    
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <div class="card-header">
+                                <span class="status-tag">In Progress</span>
+                                <h3>Horror Visual Novel</h3>
+                            </div>
+                            <p class="role">Role: Coder & Character Artist</p>
+                            <p class="desc">A horror visual novel game featuring interactive mechanics and exploration. Targeting a Steam release.</p>
+                            <img src="./stuff/img/pj1.png" alt="Project1" class="project1-img" width="200" height="400">
+                        </div>
+                    </div>
+    
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <div class="card-header">
+                                <span class="status-tag">Active</span>
+                                <h3>Visual Novel Adaptation</h3>
+                            </div>
+                            <p class="role">Role: Solo Developer</p>
+                            <p class="desc">A non-profit project adapting my original novel into a visual novel format.</p>
+                        </div>
+                    </div>
+    
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <div class="card-header">
+                                <span class="status-tag">Serializing</span>
+                                <h3>Web Novel Writer</h3>
+                            </div>
+                            
+                            <p class="role">Role: Author</p>
+                            <p class="desc">
+                                Writing and publishing original light novels on Hako.ln community. Actively engaging with readers.
+                            </p>
+                                <div class="artwork-gallery">
+                                    <img src="./stuff/img/BiaNovel.png" alt="Novel 1" class="novel1-img">
+                                    <img src="./stuff/img/BiaNovel2.png" alt="Novel 2" class="novel2-img">
+                                </div>
+                        </div>
+                    </div>
+    
+                     <div class="project-slide">
+                        <div class="project-card">
+                            <div class="card-header">
+                                <span class="status-tag">Hobby</span>
+                                <h3>Digital Artist</h3>
+                            </div>
+                            <p class="role">Role: Digital Artist</p>
+                            <p class="desc">
+                                Creating character designs and illustrations for game and novels assets. Still open for commission.
+                            </p>
+                            
+                            <div class="artwork-gallery">
+                                <img src="./stuff/img/Bia-Hoa.png" alt="Art 1" class="commission1-img">
+                                
+                                <img src="./stuff/img/lafter.png" alt="Art 2" class="commission2-img">
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
             </div>
-            <div class="project">
-                <img src="./stuff/img/pj2.png" alt="Project 2" width="700" height="800">
-                <h2>Dự án 2</h2>
-                <p>Chuyển tác phẩm hiện tại của bản thân thành một game visual novel phi lợi nhuận, khác với dự án 2.</p>
-            </div>
+    
+            <div class="carousel-indicators"></div>
+            
         </div>
     </section>
 
-    <section id="skills">
-        <h2>Kỹ năng</h2>
-        <ul class="skills-list">
-            <li>Sử dụng các ngôn ngữ như C++, Python, HTML</li>
-            <li>Vẽ minh hoạ</li>
-            <li>Lập một planner và outline cho game, tác phẩm</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Liên hệ</h2>
-        <p>Dưới đây là email để liên lạc với tớ <a href="mailto:your.email@example.com">nhituna2810@gmail.com</a> </p>
-    </section>
+    <script>
+        const track = document.querySelector('.carousel-track');
+        const slides = document.querySelectorAll('.project-slide');
+        const indicatorsContainer = document.querySelector('.carousel-indicators');
+        let currentIndex = 0;
+        let autoSlideInterval;
+    
+        // 1. Tự động tạo các chấm tròn dựa trên số lượng slide
+        slides.forEach((slide, index) => {
+            const dot = document.createElement('div');
+            dot.classList.add('dot');
+            if (index === 0) dot.classList.add('active'); // Chấm đầu tiên sáng
+            
+            // Khi bấm vào chấm
+            dot.addEventListener('click', () => {
+                goToSlide(index);
+                resetTimer(); // Reset bộ đếm giờ để không bị trượt loạn xạ
+            });
+            
+            indicatorsContainer.appendChild(dot);
+        });
+    
+        const dots = document.querySelectorAll('.dot');
+    
+        // 2. Hàm chuyển slide
+        function goToSlide(index) {
+            currentIndex = index;
+            
+            // Di chuyển đường ray
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+            
+            // Cập nhật đèn sáng cho chấm tròn
+            dots.forEach(dot => dot.classList.remove('active'));
+            dots[currentIndex].classList.add('active');
+        }
+    
+        // 3. Hàm tự động chạy
+        function nextSlide() {
+            let nextIndex = currentIndex + 1;
+            if (nextIndex >= slides.length) {
+                nextIndex = 0;
+            }
+            goToSlide(nextIndex);
+        }
+    
+        // Khởi động bộ đếm giờ (3 giây chuyển 1 lần)
+        function startTimer() {
+            autoSlideInterval = setInterval(nextSlide, 3000);
+        }
+    
+        function resetTimer() {
+            clearInterval(autoSlideInterval); // Xóa bộ đếm cũ
+            startTimer(); // Bắt đầu bộ đếm mới
+        }
+    
+        // Bắt đầu chạy
+        startTimer();
+    </script>
+    
 
     <footer>
-        <p>&copy; 2024 [Tunacchi A.K.A Uyên Nhi]. All rights reserved.</p>
+        <p>&copy; 2026 [Tunacchi A.K.A Uyên Nhi]. All rights reserved.</p>
     </footer>
 </body>
 </html>
