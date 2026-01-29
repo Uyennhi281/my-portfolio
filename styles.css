@@ -659,6 +659,14 @@ footer {
     max-width: 100%; 
     display: block; 
 }
+
+.HoaHime-img {
+    width: 400px;
+    height: auto; 
+
+    max-width: 100%; 
+    display: block; 
+}
 /* --- STYLE CHO 2 ẢNH NẰM CẠNH NHAU --- */
 
 .artwork-gallery {
